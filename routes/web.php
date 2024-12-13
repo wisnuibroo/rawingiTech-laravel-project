@@ -2,13 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
-use App\Http\Controllers\ContactController;
-use App\Http\Controllers\StudentController;
-use App\Http\Controllers\StudentAdminController;
-use App\Http\Controllers\GradeController;
-use App\Http\Controllers\GradeAdminController;
-use App\Http\Controllers\DepartmentController;
-use App\Http\Controllers\DepartmentAdminController;
+use App\Http\Controllers\LearnController;
+use App\Http\Controllers\ProfileController;
 
 
 Route::get('/', function () {
@@ -19,17 +14,10 @@ Route::get('/admin', function () {
 });
 
 Route::get('/home', [HomeController::class, 'index']);
+Route::get('/learn', [LearnController::class, 'index'])->name('learn');
+Route::get('/profile', [ProfileController::class, 'index']);
 
-Route::get('/contact', [ContactController::class, 'index']);
 
-Route::get('/student', [StudentController::class, 'index']);
-Route::get('/student-admin', [StudentAdminController::class, 'index']);
-
-Route::get('/grade', [GradeController::class, 'index']);
-Route::get('/grade-admin', [GradeAdminController::class, 'index']);
-
-Route::get('/department', [DepartmentController::class, 'index']);
-Route::get('/department-admin', [DepartmentAdminController::class, 'index']);
 
 
 

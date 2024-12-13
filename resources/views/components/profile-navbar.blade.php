@@ -1,6 +1,6 @@
 <nav>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <div class="bg-[#C0F8C2] shadow">
+    <div class="bg-[#E5FFE6] shadow">
       <div class="container mx-auto px-4 py-4 flex justify-between items-center">
 
         <div class="flex items-center mt-6 lg:mt-0">
@@ -33,6 +33,7 @@
   </nav>
 
   <style>
+
     .nav-link[aria-current="page"] {
       color: #10B981;
       border-bottom-color: #10B981;

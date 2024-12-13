@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" class="h-full bg-gray-100">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,22 +14,17 @@
 
     <title>{{ $title }}</title>
 </head>
+
 <body class="h-full">
+    <div class="min-h-screen">
 
-<div class="min-h-screen">
-
-
-    <x-navbar></x-navbar>
+        <x-navbar></x-navbar>
 
 
-
-    <main>
-      <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-
-        {{$slot}}
-      </div>
-    </main>
-  </div>
-
+        <main class="p-4 md:ml-64 h-auto pt-20">
+                {{ $slot }}
+        </main>
+    </div>
 </body>
+
 </html>
