@@ -25,8 +25,10 @@
 
 
         <div>
-          <a href="#" class="text-green hover:text-green-500 font-poppins">Log in</a>
-          <a href="#" class="bg-green-600 text-white px-4 py-2 rounded ml-2 hover:bg-green-700 font-poppins">Sign up</a>
+          <a href="{{ route('login') }}" class="text-green hover:text-green-500 font-poppins">Log in</a>
+          <a href="{{ route('signup') }}" class="bg-green-600 text-white px-4 py-2 rounded ml-2 hover:bg-green-700 font-poppins">
+            Sign up
+        </a>        
         </div>
       </div>
     </div>
