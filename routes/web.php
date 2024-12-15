@@ -19,7 +19,8 @@ use App\Http\Controllers\{
     RubyController,
     UiUxController,
     ProfileController,
-    ProfileMyCourseController
+    ProfileMyCourseController,
+    ProfileCertificationController
 };
 
 // Routes untuk halaman utama
@@ -53,8 +54,10 @@ Route::get('/uiux', [UiUxController::class, 'index'])->name('uiux');
 // Routes untuk profil dan kursus pengguna
 Route::get('/profile', [ProfileController::class, 'index']);
 Route::get('/profile-mycourse', [ProfileMyCourseController::class, 'index']);
+Route::get('/profile-certification', [ProfileCertificationController::class, 'index']);
 
 Route::get('/profile-mycourse', [ProfileMyCourseController::class, 'index'])->name('profile-mycourse');
+
 
 Route::get('/profile/add-course/{course}', [ProfileMyCourseController::class, 'addCourseToProfile'])->name('profile.addCourse');
 

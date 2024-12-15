@@ -20,7 +20,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="flex items-center text-black hover:text-green-600">
+                            <a href="/profile-certification" class="flex items-center text-black hover:text-green-600">
                                 <i class="fas fa-certificate mr-3"></i> Certification
                             </a>
                         </li>
