@@ -35,7 +35,7 @@
                 </p>
 
                 <button onclick="location.href='{{ route('profile.addCourse', ['course' => 'ai']) }}'" class="inline-block bg-gradient-to-r from-green-500 to-green-700 text-white py-2 px-6 rounded hover:from-green-400 hover:to-green-600 transition-all duration-30">
-                    Start Class
+                    Add Course
                 </button>
             </div>
         </div>

@@ -20,7 +20,7 @@
                 </div>
             </div>
 
-            
+
             <div class="w-2/3 bg-[#C9F5D9] rounded-lg p-6 ml-6">
                 <h1 class="font-bold text-4xl mb-4">Golang</h1>
                 <p class="text-gray-700 mb-4">
@@ -34,7 +34,7 @@
                 </p>
 
                 <button onclick="location.href='{{ route('profile.addCourse', ['course' => 'golang']) }}'" class="inline-block bg-gradient-to-r from-green-500 to-green-700 text-white py-2 px-6 rounded hover:from-green-400 hover:to-green-600 transition-all duration-30">
-                    Start Class
+                    Add Course
                 </button>
             </div>
         </div>
