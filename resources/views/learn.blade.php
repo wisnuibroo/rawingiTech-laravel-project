@@ -27,6 +27,7 @@
                 <div class="container mx-auto">
 
 
+                    <a href="{{ url('/java') }}">
                     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                         <div class="bg-[#A7ECAA] shadow-lg p-4 rounded-[15px] text-center">
                             <img src="https://www.finoit.com/wp-content/uploads/2022/09/history-of-java-programming-language.jpg" alt="Java Basics" class="w-full h-40 object-cover rounded-t-[15px]">
@@ -40,6 +41,9 @@
                                 <span class="text-gray-300"><i class="fas fa-star"></i></span>
                             </div>
                         </div>
+                    </a>
+
+                    <a href="{{ url('/js') }}">
                         <div class="bg-[#A7ECAA] shadow-lg p-4 rounded-[15px] text-center">
                             <img src="https://janikvonrotz.ch/images/javascript-logo.png" alt="JavaScript for Beginners" class="w-full h-40 object-cover rounded-t-[15px]">
                             <h3 class="font-bold text-lg mt-4">JavaScript for Beginners</h3>
@@ -52,6 +56,9 @@
                                 <span class="text-gray-300"><i class="fas fa-star"></i></span>
                             </div>
                         </div>
+                    </a>
+
+                    <a href="{{ url('/csharp') }}">
                         <div class="bg-[#A7ECAA] shadow-lg p-4 rounded-[15px] text-center">
                             <img src="https://atlacademy.az/images/cache/18/183cad_c--n-dir.jpg" alt="C# Essentials" class="w-full h-40 object-cover rounded-t-[15px]">
                             <h3 class="font-bold text-lg mt-4">C# Essentials</h3>
@@ -64,6 +71,9 @@
                                 <span class="text-gray-300"><i class="fas fa-star"></i></span>
                             </div>
                         </div>
+                    </a>
+
+                    <a href="{{ url('/mysql') }}">
                         <div class="bg-[#A7ECAA] shadow-lg p-4 rounded-[15px] text-center">
                             <img src="https://mastering-da.com/wp-content/uploads/2023/11/mysql-la-gi-scaled.jpg" alt="Basic SQL" class="w-full h-40 object-cover rounded-t-[15px]">
                             <h3 class="font-bold text-lg mt-4">Basic SQL</h3>
@@ -76,6 +86,9 @@
                                 <span class="text-gray-300"><i class="fas fa-star"></i></span>
                             </div>
                         </div>
+                    </a>
+
+                    <a href="{{ url('/python') }}">
                         <div class="bg-[#A7ECAA] shadow-lg p-4 rounded-[15px] text-center">
                             <img src="https://ideacdn.net/idea/ct/82/myassets/blogs/python-avantaj.jpg?revision=1581874510" alt="Mobile Python" class="w-full h-40 object-cover rounded-t-[15px]">
                             <h3 class="font-bold text-lg mt-4">Mobile Python</h3>
@@ -88,6 +101,9 @@
                                 <span class="text-gray-300"><i class="fas fa-star"></i></span>
                             </div>
                         </div>
+                    </a>
+
+                    <a href="{{ url('/html') }}">
                         <div class="bg-[#A7ECAA] shadow-lg p-4 rounded-[15px] text-center">
                             <img src="https://www.techfor.id/wp-content/uploads/2019/12/html.png" alt="HTML Basics" class="w-full h-40 object-cover rounded-t-[15px]">
                             <h3 class="font-bold text-lg mt-4">HTML Basics</h3>
@@ -100,6 +116,9 @@
                                 <span class="text-gray-300"><i class="fas fa-star"></i></span>
                             </div>
                         </div>
+                    </a>
+
+                    <a href="{{ url('/c++') }}">
                         <div class="bg-[#A7ECAA] shadow-lg p-4 rounded-[15px] text-center">
                             <img src="https://miro.medium.com/v2/resize:fit:1400/0*Nx-rPatNPrza5lys" alt="HTML Basics" class="w-full h-40 object-cover rounded-t-[15px]">
                             <h3 class="font-bold text-lg mt-4">C++</h3>
@@ -112,6 +131,9 @@
                                 <span class="text-gray-300"><i class="fas fa-star"></i></span>
                             </div>
                         </div>
+                    </a>
+
+                    <a href="{{ url('/nodejs') }}">
                         <div class="bg-[#A7ECAA] shadow-lg p-4 rounded-[15px] text-center">
                             <img src="https://miro.medium.com/v2/resize:fit:1400/1*QXXviQI-N1jzuOOajsIe7g.png" alt="HTML Basics" class="w-full h-40 object-cover rounded-t-[15px]">
                             <h3 class="font-bold text-lg mt-4">Node Js For Beginners</h3>
@@ -124,6 +146,9 @@
                                 <span class="text-gray-300"><i class="fas fa-star"></i></span>
                             </div>
                         </div>
+                    </a>
+
+                    <a href="{{ url('/ai') }}">
                         <div class="bg-[#A7ECAA] shadow-lg p-4 rounded-[15px] text-center">
                             <img src="https://www.zabala.eu/wp-content/uploads/2023/11/Artificial-intelligente-and-consultancy-1200x675.jpg" alt="HTML Basics" class="w-full h-40 object-cover rounded-t-[15px]">
                             <h3 class="font-bold text-lg mt-4">Basic AI</h3>
@@ -136,6 +161,9 @@
                                 <span class="text-gray-300"><i class="fas fa-star"></i></span>
                             </div>
                         </div>
+                    </a>
+
+                    <a href="{{ url('/golang') }}">
                         <div class="bg-[#A7ECAA] shadow-lg p-4 rounded-[15px] text-center">
                             <img src="https://miro.medium.com/v2/resize:fit:1400/1*DcvZbgx03GYUw01z6wtUZA.jpeg" alt="HTML Basics" class="w-full h-40 object-cover rounded-t-[15px]">
                             <h3 class="font-bold text-lg mt-4">Golang Basics</h3>
@@ -148,6 +176,9 @@
                                 <span class="text-gray-300"><i class="fas fa-star"></i></span>
                             </div>
                         </div>
+                    </a>
+
+                    <a href="{{ url('/ruby') }}">
                         <div class="bg-[#A7ECAA] shadow-lg p-4 rounded-[15px] text-center">
                             <img src="https://cdn-cdpl.sgp1.cdn.digitaloceanspaces.com/source/8b81700471e8917196897fec5d8e28e9/ruby.jpg" alt="HTML Basics" class="w-full h-40 object-cover rounded-t-[15px]">
                             <h3 class="font-bold text-lg mt-4">Ruby For Beginners</h3>
@@ -160,6 +191,9 @@
                                 <span class="text-gray-300"><i class="fas fa-star"></i></span>
                             </div>
                         </div>
+                    </a>
+
+                    <a href="{{ url('/uiux') }}">
                         <div class="bg-[#A7ECAA] shadow-lg p-4 rounded-[15px] text-center">
                             <img src="https://i0.wp.com/isellerdotblog.wpcomstaging.com/wp-content/uploads/2024/08/ui-ux-design.jpg?resize=750%2C500&ssl=1" alt="HTML Basics" class="w-full h-40 object-cover rounded-t-[15px]">
                             <h3 class="font-bold text-lg mt-4">UI/UX</h3>
@@ -172,6 +206,7 @@
                                 <span class="text-gray-300"><i class="fas fa-star"></i></span>
                             </div>
                         </div>
+                    </a>
                     </div>
 
 

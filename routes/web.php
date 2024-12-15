@@ -11,6 +11,12 @@ use App\Http\Controllers\CsharpController;
 use App\Http\Controllers\MySqlController;
 use App\Http\Controllers\PythonController;
 use App\Http\Controllers\HtmlController;
+use App\Http\Controllers\CplusplusController;
+use App\Http\Controllers\NodeJsController;
+use App\Http\Controllers\AiController;
+use App\Http\Controllers\GolangController;
+use App\Http\Controllers\RubyController;
+use App\Http\Controllers\UiUxController;
 use App\Http\Controllers\ProfileController;
 
 
@@ -31,6 +37,12 @@ Route::get('/csharp', [CsharpController::class, 'index'])->name('csharp');
 Route::get('/mysql', [MySqlController::class, 'index'])->name('mysql');
 Route::get('/python', [PythonController::class, 'index'])->name('python');
 Route::get('/html', [HtmlController::class, 'index'])->name('html');
+Route::get('/c++', [CplusplusController::class, 'index'])->name('c++');
+Route::get('/nodejs', [NodeJsController::class, 'index'])->name('nodejs');
+Route::get('/ai', [AiController::class, 'index'])->name('ai');
+Route::get('/golang', [GolangController::class, 'index'])->name('golang');
+Route::get('/ruby', [RubyController::class, 'index'])->name('ruby');
+Route::get('/uiux', [UiUxController::class, 'index'])->name('uiux');
 Route::get('/profile', [ProfileController::class, 'index']);
 
 
