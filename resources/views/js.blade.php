@@ -30,7 +30,8 @@
                     You'll explore JavaScript fundamentals such as syntax, variables, loops, functions, and event handling. By the end of this course, you'll be equipped with the knowledge to build dynamic web applications that respond to user input and provide rich, interactive experiences.
                 </p>
 
-                <button href="#" class="inline-block bg-gradient-to-r from-green-500 to-green-700 text-white py-2 px-6 rounded hover:from-green-400 hover:to-green-600 transition-all duration-30">Start Class</button>
+                <button onclick="location.href='{{ route('profile.addCourse', ['course' => 'js']) }}'"
+                    class="inline-block bg-gradient-to-r from-green-500 to-green-700 text-white py-2 px-6 rounded hover:from-green-400 hover:to-green-600 transition-all duration-30">Start Class</button>
             </div>
         </div>
     </div>

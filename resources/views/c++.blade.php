@@ -35,7 +35,7 @@
                     By the end of this course, you will have a solid understanding of C++ and be able to create high-performance applications, from simple programs to more complex software systems.
                 </p>
 
-                <button href="#" class="inline-block bg-gradient-to-r from-green-500 to-green-700 text-white py-2 px-6 rounded hover:from-green-400 hover:to-green-600 transition-all duration-30">
+                <button onclick="location.href='{{ route('profile.addCourse', ['course' => 'cpp']) }}'" class="inline-block bg-gradient-to-r from-green-500 to-green-700 text-white py-2 px-6 rounded hover:from-green-400 hover:to-green-600 transition-all duration-30">
                     Start Class
                 </button>
             </div>

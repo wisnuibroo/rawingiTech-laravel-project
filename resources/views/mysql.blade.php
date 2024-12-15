@@ -3,7 +3,7 @@
 
     <div>
         <div class="bg-white shadow-lg rounded-lg p-6 flex w-full h-5/6">
-            
+
             <div class="w-1/3 bg-[#C9F5D9] rounded-lg p-4">
                 <img src="https://mastering-da.com/wp-content/uploads/2023/11/mysql-la-gi-scaled.jpg" alt="Java Basics" class="w-full h-40 object-cover rounded-t-[15px]">
                 <p class="text-gray-600">Mobile Dev, Web Dev</p>
@@ -33,9 +33,9 @@
                     By the end of this course, you will have the skills to build and manage databases, as well as effectively retrieve and manipulate data using SQL, laying the foundation for developing robust, data-driven applications.
                 </p>
 
-                <a href="#" class="inline-block bg-gradient-to-r from-green-500 to-green-700 text-white py-2 px-6 rounded hover:from-green-400 hover:to-green-600 transition-all duration-30">
+                <button onclick="location.href='{{ route('profile.addCourse', ['course' => 'mysql']) }}'" class="inline-block bg-gradient-to-r from-green-500 to-green-700 text-white py-2 px-6 rounded hover:from-green-400 hover:to-green-600 transition-all duration-30">
                     Start Class
-                </a>
+                </button>
             </div>
         </div>
     </div>

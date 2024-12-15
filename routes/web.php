@@ -1,38 +1,41 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\HomeController;
-use App\Http\Controllers\AuthController;
-use App\Http\Controllers\SignUpController;
-use App\Http\Controllers\LearnController;
-use App\Http\Controllers\JavaController;
-use App\Http\Controllers\JsController;
-use App\Http\Controllers\CsharpController;
-use App\Http\Controllers\MySqlController;
-use App\Http\Controllers\PythonController;
-use App\Http\Controllers\HtmlController;
-use App\Http\Controllers\CplusplusController;
-use App\Http\Controllers\NodeJsController;
-use App\Http\Controllers\AiController;
-use App\Http\Controllers\GolangController;
-use App\Http\Controllers\RubyController;
-use App\Http\Controllers\UiUxController;
-use App\Http\Controllers\ProfileController;
-use App\Http\Controllers\ProfileMyCourseController;
+use App\Http\Controllers\{
+    HomeController,
+    AuthController,
+    SignUpController,
+    LearnController,
+    JavaController,
+    JsController,
+    CsharpController,
+    MySqlController,
+    PythonController,
+    HtmlController,
+    CplusplusController,
+    NodeJsController,
+    AiController,
+    GolangController,
+    RubyController,
+    UiUxController,
+    ProfileController,
+    ProfileMyCourseController
+};
 
-
+// Routes untuk halaman utama
 Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/admin', function () {
-    return view('admin',);
+    return view('admin');
 });
 
+// Routes untuk user-related pages
 Route::get('/home', [HomeController::class, 'index']);
 Route::get('/signup', [SignUpController::class, 'showSignup'])->name('signup');
 Route::get('/login', [AuthController::class, 'showLogin'])->name('login');
 
-
+// Routes untuk kursus
 Route::get('/learn', [LearnController::class, 'index'])->name('learn');
 Route::get('/java', [JavaController::class, 'index'])->name('java');
 Route::get('/js', [JsController::class, 'index'])->name('js');
@@ -47,10 +50,13 @@ Route::get('/golang', [GolangController::class, 'index'])->name('golang');
 Route::get('/ruby', [RubyController::class, 'index'])->name('ruby');
 Route::get('/uiux', [UiUxController::class, 'index'])->name('uiux');
 
-
+// Routes untuk profil dan kursus pengguna
 Route::get('/profile', [ProfileController::class, 'index']);
 Route::get('/profile-mycourse', [ProfileMyCourseController::class, 'index']);
 
+Route::get('/profile-mycourse', [ProfileMyCourseController::class, 'index'])->name('profile-mycourse');
+
+Route::get('/profile/add-course/{course}', [ProfileMyCourseController::class, 'addCourseToProfile'])->name('profile.addCourse');
 
 
 
