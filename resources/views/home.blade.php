@@ -2,7 +2,7 @@
     <x-slot:title>{{ $title }}</x-slot>
 
 
-    <section class="bg-[#C0F8C2] py-12">
+    <section class="bg-[#E5FFE6] py-12">
         <div class="w-full mx-auto flex flex-col lg:flex-row items-center">
 
 
@@ -74,7 +74,7 @@
     </section>
 
 
-<section class="bg-[#C0F8C2] py-12 w-full">
+<section class="bg-[#E5FFE6] py-12 w-full">
     <div class="container mx-auto">
         <h2 class="text-4xl font-bold text-left mb-8">
             Explore Courses by Category

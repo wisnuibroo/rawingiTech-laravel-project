@@ -32,11 +32,12 @@
 
             <main class="flex-1 bg-[#E5FFE6] p-8">
                 <h1 class="text-2xl font-bold mb-6">Dashboard</h1>
-                <div class="space-y-6">
+                <div class="space-y-6 text-left">
+                    <img src="https://png.pngtree.com/png-vector/20240322/ourmid/pngtree-start-learning-with-free-trial-online-courses-png-image_12187235.png" alt="Dashboard Illustration" class="w-50 h-auto">
 
-                    
                 </div>
             </main>
+
         </div>
     </div>
 

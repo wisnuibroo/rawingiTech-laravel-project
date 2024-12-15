@@ -2,7 +2,7 @@
     <x-slot:title>{{ $title }}</x-slot>
 
 
-        <div class="bg-[#C0F8C2] w-full">
+        <div class="bg-[#E5FFE6] w-full">
 
             <header class="text-center py-16">
                 <h1 class="text-5xl font-bold text-black">LEARN</h1>
@@ -23,7 +23,7 @@
         </div>
 
 
-            <section class="py-12 bg-[#C0F8C2] w-full">
+            <section class="py-12 bg-[#E5FFE6] w-full">
                 <div class="container mx-auto">
 
 
