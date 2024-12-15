@@ -26,14 +26,15 @@
             <div class="w-2/3 bg-[#C9F5D9] rounded-lg p-6 ml-6">
                 <h1 class="font-bold text-4xl mb-4">Ruby</h1>
                 <p class="text-gray-700 mb-4">
-                    Ruby is a versatile and powerful programming language that helps you create game and programs that can run on various devices, such as computers, mobile phones, and even TVs. It is designed to be simple, secure, and easy to use, allowing you to write a program once and run it anywhere.
+                    Ruby is an elegant, dynamic, and object-oriented programming language known for its simplicity and productivity. It is widely used for web development, particularly with the Ruby on Rails framework, and allows developers to write clean, readable, and maintainable code quickly. Ruby is designed to focus on the needs of the developer, making it a great choice for both beginners and experienced programmers.
                 </p>
                 <p class="text-gray-700 mb-4">
-                    In this class, you will learn the basics of Ruby programming, including how to write, debug, and execute your first programs. You will also explore key concepts such as variables, loops, and object-oriented programming, which form the foundation of creating real-world applications.
+                    In this class, you will learn the basics of Ruby programming, including how to write, debug, and execute your first programs. You will explore key concepts such as variables, loops, functions, and object-oriented programming (OOP), which are essential for building robust, real-world applications.
                 </p>
                 <p class="text-gray-700 mb-6">
-                    In this class, you will get to know and learn the basics of the Ruby programming langague.
+                    By the end of this course, you will have a solid understanding of Ruby and be able to develop efficient and maintainable applications, from simple scripts to more complex web applications.
                 </p>
+
                 <a href="#" class="inline-block bg-gradient-to-r from-green-500 to-green-700 text-white py-2 px-6 rounded hover:from-green-400 hover:to-green-600 transition-all duration-30">
                     Start Class
                 </a>

@@ -26,14 +26,15 @@
             <div class="w-2/3 bg-[#C9F5D9] rounded-lg p-6 ml-6">
                 <h1 class="font-bold text-4xl mb-4">C++</h1>
                 <p class="text-gray-700 mb-4">
-                    C++ is a versatile and powerful programming language that helps you create apps and programs that can run on various devices, such as computers, mobile phones, and even TVs. It is designed to be simple, secure, and easy to use, allowing you to write a program once and run it anywhere.
+                    C++ is a powerful and flexible programming language used for developing high-performance applications, such as software, games, and systems that require real-time processing. It allows for fine control over system resources and memory, making it ideal for applications where efficiency is crucial.
                 </p>
                 <p class="text-gray-700 mb-4">
-                    In this class, you will learn the basics of C++ programming, including how to write, debug, and execute your first programs. You will also explore key concepts such as variables, loops, and object-oriented programming, which form the foundation of creating real-world applications.
+                    In this class, you will learn the basics of C++ programming, including how to write, debug, and execute your first programs. You will explore key concepts such as variables, loops, functions, and object-oriented programming (OOP), which are fundamental for building robust and efficient applications.
                 </p>
                 <p class="text-gray-700 mb-6">
-                    In this class, you will get to know and learn the basics of the C++ programming language.
+                    By the end of this course, you will have a solid understanding of C++ and be able to create high-performance applications, from simple programs to more complex software systems.
                 </p>
+
                 <button href="#" class="inline-block bg-gradient-to-r from-green-500 to-green-700 text-white py-2 px-6 rounded hover:from-green-400 hover:to-green-600 transition-all duration-30">
                     Start Class
                 </button>

@@ -26,14 +26,15 @@
             <div class="w-2/3 bg-[#C9F5D9] rounded-lg p-6 ml-6">
                 <h1 class="font-bold text-4xl mb-4">Node Js</h1>
                 <p class="text-gray-700 mb-4">
-                    Node Js is a versatile and powerful programming language that helps you create game and programs that can run on various devices, such as computers, mobile phones, and even TVs. It is designed to be simple, secure, and easy to use, allowing you to write a program once and run it anywhere.
+                    Node.js is a powerful and flexible runtime environment that allows you to run JavaScript code on the server side. It is widely used for building fast, scalable network applications, including web servers, APIs, and real-time applications like chat apps and online games. Node.js is designed to be lightweight and efficient, leveraging non-blocking, event-driven architecture to handle concurrent connections.
                 </p>
                 <p class="text-gray-700 mb-4">
-                    In this class, you will learn the basics of Node Js programming, including how to write, debug, and execute your first programs. You will also explore key concepts such as variables, loops, and object-oriented programming, which form the foundation of creating real-world applications.
+                    In this class, you will learn the basics of Node.js programming, including how to set up a Node.js environment, write, debug, and execute your first server-side programs. You will also explore key concepts such as asynchronous programming, handling HTTP requests, and working with databases, which are essential for building modern, scalable web applications.
                 </p>
                 <p class="text-gray-700 mb-6">
-                    In this class, you will get to know and learn the basics of the My Node Js programming langague.
+                    By the end of this course, you will have the skills to create server-side applications using Node.js, enabling you to build dynamic, high-performance web applications and services.
                 </p>
+
                 <a href="#" class="inline-block bg-gradient-to-r from-green-500 to-green-700 text-white py-2 px-6 rounded hover:from-green-400 hover:to-green-600 transition-all duration-30">
                     Start Class
                 </a>
