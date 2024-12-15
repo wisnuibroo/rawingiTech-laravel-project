@@ -15,13 +15,14 @@
     <title>{{ $title }}</title>
 </head>
 
-<body class="h-full">
-    <div class="min-h-screen">
+<body>
+    <div>
 
         <x-navbar></x-navbar>
 
 
-        <main class="p-4 md:ml-64 h-auto pt-20">
+        <main class="w-full  py-1  "
+        >
                 {{ $slot }}
         </main>
     </div>

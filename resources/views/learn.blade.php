@@ -206,7 +206,6 @@
                                 <span class="text-gray-300"><i class="fas fa-star"></i></span>
                             </div>
                         </div>
-                    </a>
                     </div>
 
 

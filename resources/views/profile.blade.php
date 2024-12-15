@@ -2,10 +2,10 @@
 
     <x-slot:title>{{ $title }}</x-slot>
 
-    <div class="h-screen flex flex-col bg-[#E5FFE6]">
+    <div class="h-screen flex flex-col bg-[#C0F8C2]">
         <div class="flex flex-1">
 
-            <aside class="w-64 bg-[#CCFCD7] p-6 flex flex-col items-center">
+            <aside class="w-64 bg-[#C0F8C2] p-6 flex flex-col items-center">
                 <div class="w-20 h-20 bg-gray-200 rounded-full mb-4"></div>
                 <span class="font-bold text-lg mb-8">Guest</span>
                 <nav class="w-full">
@@ -17,7 +17,7 @@
                         </li>
                         <li>
                             <a href="#" class="flex items-center text-black hover:text-green-600">
-                                <i class="fas fa-book mr-3"></i> My Class
+                                <i class="fas fa-book mr-3"></i> My Course
                             </a>
                         </li>
                         <li>
@@ -30,7 +30,7 @@
             </aside>
 
 
-            <main class="flex-1 bg-[#DFFFE6] p-8">
+            <main class="flex-1 bg-[#E5FFE6] p-8">
                 <h1 class="text-2xl font-bold mb-6">Dashboard</h1>
                 <div class="space-y-6">
 
