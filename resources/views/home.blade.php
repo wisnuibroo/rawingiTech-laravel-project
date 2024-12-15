@@ -147,6 +147,7 @@
                 </button>
             </div>
 
+            <a href="{{ url('/java') }}">
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                 <div class="bg-[#A7ECAA] shadow-lg p-4 rounded-[15px] text-center">
                     <img src="https://www.finoit.com/wp-content/uploads/2022/09/history-of-java-programming-language.jpg" alt="Java Basics" class="w-full h-40 object-cover rounded-t-[15px]">
@@ -160,6 +161,9 @@
                         <span class="text-gray-300"><i class="fas fa-star"></i></span>
                     </div>
                 </div>
+            </a>
+
+            <a href="{{ url('/js') }}">
                 <div class="bg-[#A7ECAA] shadow-lg p-4 rounded-[15px] text-center">
                     <img src="https://janikvonrotz.ch/images/javascript-logo.png" alt="JavaScript for Beginners" class="w-full h-40 object-cover rounded-t-[15px]">
                     <h3 class="font-bold text-lg mt-4">JavaScript for Beginners</h3>
@@ -172,6 +176,9 @@
                         <span class="text-gray-300"><i class="fas fa-star"></i></span>
                     </div>
                 </div>
+            </a>
+
+            <a href="{{ url('/csharp') }}">
                 <div class="bg-[#A7ECAA] shadow-lg p-4 rounded-[15px] text-center">
                     <img src="https://atlacademy.az/images/cache/18/183cad_c--n-dir.jpg" alt="C# Essentials" class="w-full h-40 object-cover rounded-t-[15px]">
                     <h3 class="font-bold text-lg mt-4">C# Essentials</h3>
@@ -184,6 +191,9 @@
                         <span class="text-gray-300"><i class="fas fa-star"></i></span>
                     </div>
                 </div>
+            </a>
+
+            <a href="{{ url('/mysql') }}">
                 <div class="bg-[#A7ECAA] shadow-lg p-4 rounded-[15px] text-center">
                     <img src="https://mastering-da.com/wp-content/uploads/2023/11/mysql-la-gi-scaled.jpg" alt="Basic SQL" class="w-full h-40 object-cover rounded-t-[15px]">
                     <h3 class="font-bold text-lg mt-4">Basic SQL</h3>
@@ -196,6 +206,8 @@
                         <span class="text-gray-300"><i class="fas fa-star"></i></span>
                     </div>
                 </div>
+            </a>
+            <a href="{{ url('/python') }}">
                 <div class="bg-[#A7ECAA] shadow-lg p-4 rounded-[15px] text-center">
                     <img src="https://ideacdn.net/idea/ct/82/myassets/blogs/python-avantaj.jpg?revision=1581874510" alt="Mobile Python" class="w-full h-40 object-cover rounded-t-[15px]">
                     <h3 class="font-bold text-lg mt-4">Mobile Python</h3>
@@ -208,6 +220,9 @@
                         <span class="text-gray-300"><i class="fas fa-star"></i></span>
                     </div>
                 </div>
+            </a>
+
+            <a href="{{ url('/html') }}">
                 <div class="bg-[#A7ECAA] shadow-lg p-4 rounded-[15px] text-center">
                     <img src="https://www.techfor.id/wp-content/uploads/2019/12/html.png" alt="HTML Basics" class="w-full h-40 object-cover rounded-t-[15px]">
                     <h3 class="font-bold text-lg mt-4">HTML Basics</h3>
@@ -220,6 +235,7 @@
                         <span class="text-gray-300"><i class="fas fa-star"></i></span>
                     </div>
                 </div>
+            </a>
             </div>
 
             </div>
