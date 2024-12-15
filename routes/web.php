@@ -18,6 +18,7 @@ use App\Http\Controllers\GolangController;
 use App\Http\Controllers\RubyController;
 use App\Http\Controllers\UiUxController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\ProfileMyCourseController;
 
 
 Route::get('/', function () {
@@ -30,6 +31,8 @@ Route::get('/admin', function () {
 Route::get('/home', [HomeController::class, 'index']);
 Route::get('/signup', [SignUpController::class, 'showSignup'])->name('signup');
 Route::get('/login', [AuthController::class, 'showLogin'])->name('login');
+
+
 Route::get('/learn', [LearnController::class, 'index'])->name('learn');
 Route::get('/java', [JavaController::class, 'index'])->name('java');
 Route::get('/js', [JsController::class, 'index'])->name('js');
@@ -43,7 +46,10 @@ Route::get('/ai', [AiController::class, 'index'])->name('ai');
 Route::get('/golang', [GolangController::class, 'index'])->name('golang');
 Route::get('/ruby', [RubyController::class, 'index'])->name('ruby');
 Route::get('/uiux', [UiUxController::class, 'index'])->name('uiux');
+
+
 Route::get('/profile', [ProfileController::class, 'index']);
+Route::get('/profile-mycourse', [ProfileMyCourseController::class, 'index']);
 
 
 

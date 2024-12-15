@@ -16,7 +16,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="flex items-center text-black hover:text-green-600">
+                            <a href="/profile-mycourse" class="flex items-center text-black hover:text-green-600">
                                 <i class="fas fa-book mr-3"></i> My Course
                             </a>
                         </li>
@@ -34,31 +34,7 @@
                 <h1 class="text-2xl font-bold mb-6">Dashboard</h1>
                 <div class="space-y-6">
 
-                    <div class="bg-white rounded-lg shadow-md p-6 flex justify-between items-center">
-                        <div>
-                            <h2 class="text-lg font-bold">C#</h2>
-                            <p class="text-sm text-gray-500">4 / 18 Lessons</p>
-                        </div>
-                        <div class="w-1/2">
-                            <div class="h-2 bg-gray-200 rounded-full">
-                                <div class="h-full bg-green-600 rounded-full" style="width: 22%;"></div>
-                            </div>
-                            <p class="text-sm text-right mt-1 text-gray-600">22%</p>
-                        </div>
-                    </div>
-
-                    <div class="bg-white rounded-lg shadow-md p-6 flex justify-between items-center">
-                        <div>
-                            <h2 class="text-lg font-bold">C++</h2>
-                            <p class="text-sm text-gray-500">7 / 15 Lessons</p>
-                        </div>
-                        <div class="w-1/2">
-                            <div class="h-2 bg-gray-200 rounded-full">
-                                <div class="h-full bg-green-600 rounded-full" style="width: 46%;"></div>
-                            </div>
-                            <p class="text-sm text-right mt-1 text-gray-600">46%</p>
-                        </div>
-                    </div>
+                    
                 </div>
             </main>
         </div>
