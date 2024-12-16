@@ -25,8 +25,8 @@ class LoginController extends Controller
         $password = $request->input('password');
 
         if ($username === 'Fows' && $password === 'fows1234') {
-            // Set session authenticated
-            session(['authenticated' => true]);
+            // Set session authenticated dan username
+            session(['authenticated' => true, 'username' => $username]);
 
             // Redirect ke halaman admin
             return redirect('/profile');
@@ -38,8 +38,8 @@ class LoginController extends Controller
 
     public function logout()
     {
-        // Hapus session authenticated
-        session()->forget('authenticated');
+        // Hapus session authenticated dan username
+        session()->forget(['authenticated', 'username']);
 
         // Redirect ke halaman login
         return redirect('/login');
