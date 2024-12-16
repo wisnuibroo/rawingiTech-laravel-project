@@ -1,10 +1,10 @@
 <nav>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.icon-icons.com/icons2/692/PNG/512/seo-social-web-network-internet_71_icon-icons.com_61501.png" rel="stylesheet">
     <div class="bg-[#C0F8C2] shadow">
       <div class="container mx-auto px-4 py-4 flex justify-between items-center">
 
         <div class="flex items-center mt-6 lg:mt-0">
-          <i class="fas fa-dove text-green-300 text-4xl"></i>
+          <i class="fas fa-dove text-4xl"></i>
           <div class="text-lg font-bold text-black font-poppins ml-2">
             Rawingi Tech’s
           </div>
