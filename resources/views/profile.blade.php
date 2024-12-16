@@ -4,9 +4,8 @@
     <div class="h-screen flex flex-col bg-[#C0F8C2]">
         <div class="flex flex-1">
             <aside class="w-64 bg-[#C0F8C2] p-6 flex flex-col items-center">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYw5iatTOp55w8yeWuLkId1fc_hpaALV4exg&s" alt="logo" class="w-32 h-32 rounded-full mb-4">
-                <!-- Menampilkan username dari session -->
-                <span class="font-bold text-lg mb-8">{{ session('username') }}</span>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYw5iatTOp55w8yeWuLkId1fc_hpaALV4exg&s" alt="" class="w-32 h-32 rounded-full mb-4">
+                <span class="font-bold text-lg mb-8">{{ session('username', 'Guest') }}</span>
                 <nav class="w-full">
                     <ul class="space-y-4">
                         <li>

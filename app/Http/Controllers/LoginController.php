@@ -8,40 +8,40 @@ class LoginController extends Controller
 {
     public function index()
     {
-        // Menampilkan halaman login
+       
         return view('login');
     }
 
     public function authenticate(Request $request)
     {
-        // Validasi input
+        
         $request->validate([
             'username' => 'required',
             'password' => 'required',
         ]);
 
-        // Verifikasi username dan password
+        
         $username = $request->input('username');
         $password = $request->input('password');
 
-        if ($username === 'Fows' && $password === 'fows1234') {
-            // Set session authenticated dan username
+        if ($username === 'Ahmad' && $password === 'fows1234') {
+            
             session(['authenticated' => true, 'username' => $username]);
 
-            // Redirect ke halaman admin
+            
             return redirect('/profile');
         }
 
-        // Jika gagal login
+        // Jika false login
         return back()->with('error', 'Username atau Password salah');
     }
 
     public function logout()
     {
-        // Hapus session authenticated dan username
+        
         session()->forget(['authenticated', 'username']);
 
-        // Redirect ke halaman login
-        return redirect('/login');
+        
+        return redirect('/profile');
     }
 }

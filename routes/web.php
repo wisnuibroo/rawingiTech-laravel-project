@@ -27,9 +27,6 @@ use App\Http\Controllers\{
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/admin', function () {
-    return view('admin');
-});
 
 // Routes untuk user-related pages
 Route::get('/home', [HomeController::class, 'index']);
@@ -63,12 +60,7 @@ Route::get('/profile-mycourse', [ProfileMyCourseController::class, 'index'])->na
 
 Route::get('/profile/add-course/{course}', [ProfileMyCourseController::class, 'addCourseToProfile'])->name('profile.addCourse');
 
-Route::get('/admin', function () {
-    if (!session('authenticated')) {
-        return redirect('/login')->with('error', 'Harap login terlebih dahulu');
-    }
-    return view('admin');
-});
+
 
 
 
