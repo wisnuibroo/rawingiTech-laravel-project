@@ -1,6 +1,6 @@
 <nav>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <div class="bg-[#E5FFE6] shadow">
+    <div class="bg-[#C0F8C2] shadow">
       <div class="container mx-auto px-4 py-4 flex justify-between items-center">
 
         <div class="flex items-center mt-6 lg:mt-0">
@@ -28,7 +28,7 @@
           <a href="{{ route('login') }}" class="text-green hover:text-green-500 font-poppins">Log in</a>
           <a href="{{ route('signup') }}" class="bg-green-600 text-white px-4 py-2 rounded ml-2 hover:bg-green-700 font-poppins">
             Sign up
-        </a>
+        </a>        
         </div>
       </div>
     </div>

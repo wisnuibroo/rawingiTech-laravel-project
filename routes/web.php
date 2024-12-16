@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\{
     HomeController,
-    AuthController,
+    LoginController,
     SignUpController,
     LearnController,
     JavaController,
@@ -34,7 +34,9 @@ Route::get('/admin', function () {
 // Routes untuk user-related pages
 Route::get('/home', [HomeController::class, 'index']);
 Route::get('/signup', [SignUpController::class, 'showSignup'])->name('signup');
-Route::get('/login', [AuthController::class, 'showLogin'])->name('login');
+Route::get('/login', [LoginController::class, 'index'])->name('login');
+Route::post('/login', [LoginController::class, 'authenticate']);
+Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
 
 // Routes untuk kursus
 Route::get('/learn', [LearnController::class, 'index'])->name('learn');
@@ -61,6 +63,12 @@ Route::get('/profile-mycourse', [ProfileMyCourseController::class, 'index'])->na
 
 Route::get('/profile/add-course/{course}', [ProfileMyCourseController::class, 'addCourseToProfile'])->name('profile.addCourse');
 
+Route::get('/admin', function () {
+    if (!session('authenticated')) {
+        return redirect('/login')->with('error', 'Harap login terlebih dahulu');
+    }
+    return view('admin');
+});
 
 
 

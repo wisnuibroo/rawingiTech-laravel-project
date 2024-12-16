@@ -1,13 +1,12 @@
 <x-layout-profile>
-
-    <x-slot:title>{{ $title }}</x-slot>
+    <x-slot:title>Profile</x-slot:title>
 
     <div class="h-screen flex flex-col bg-[#C0F8C2]">
         <div class="flex flex-1">
-
             <aside class="w-64 bg-[#C0F8C2] p-6 flex flex-col items-center">
                 <div class="w-20 h-20 bg-gray-200 rounded-full mb-4"></div>
-                <span class="font-bold text-lg mb-8">Guest</span>
+                <!-- Menampilkan username dari session -->
+                <span class="font-bold text-lg mb-8">sesuai username saat login</span>
                 <nav class="w-full">
                     <ul class="space-y-4">
                         <li>
@@ -29,16 +28,13 @@
                 </nav>
             </aside>
 
-
             <main class="flex-1 bg-[#E5FFE6] p-8">
                 <h1 class="text-2xl font-bold mb-6">Dashboard</h1>
                 <div class="space-y-6 text-left">
-                    <img src="https://png.pngtree.com/png-vector/20240322/ourmid/pngtree-start-learning-with-free-trial-online-courses-png-image_12187235.png" alt="Dashboard Illustration" class="w-50 h-auto">
-
+                    <img src="https://png.pngtree.com/png-vector/20240322/ourmid/pngtree-start-learning-with-free-trial-online-courses-png-image_12187235.png" 
+                        alt="Dashboard Illustration" class="w-50 h-auto">
                 </div>
             </main>
-
         </div>
     </div>
-
 </x-layout-profile>
