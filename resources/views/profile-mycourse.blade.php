@@ -61,8 +61,10 @@
                 ];
                 @endphp
 
+
                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                    @foreach (session('my_courses', []) as $course)
+                   <a href="{{ url('/' . strtolower($course) . '-quiz') }}" class="block">
                        <div class="bg-[#A7ECAA] rounded-lg shadow-md p-6">
                            <div class="flex flex-col items-center">
                                <img src="{{ $courseImages[strtolower($course)] ?? 'default-image-url.jpg' }}" alt="{{ ucfirst($course) }} Basics" class="w-full h-40 object-cover rounded-t-[15px]">

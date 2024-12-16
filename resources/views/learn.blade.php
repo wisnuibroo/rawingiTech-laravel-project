@@ -196,7 +196,7 @@
                     <a href="{{ url('/uiux') }}">
                         <div class="bg-[#A7ECAA] shadow-lg p-4 rounded-[15px] text-center">
                             <img src="https://i0.wp.com/isellerdotblog.wpcomstaging.com/wp-content/uploads/2024/08/ui-ux-design.jpg?resize=750%2C500&ssl=1" alt="HTML Basics" class="w-full h-40 object-cover rounded-t-[15px]">
-                            <h3 class="font-bold text-lg mt-4">UI/UX</h3>
+                            <h3 class="font-bold text-lg mt-4">UI/UX Design</h3>
                             <p class="text-gray-700">591rb lessons</p>
                             <div class="flex justify-center mt-2">
                                 <span class="text-yellow-400"><i class="fas fa-star"></i></span>

@@ -7,17 +7,29 @@ use App\Http\Controllers\{
     SignUpController,
     LearnController,
     JavaController,
+    JavaQuizController,
     JsController,
+    JsQuizController,
     CsharpController,
+    CsharpQuizController,
     MySqlController,
+    MySqlQuizController,
     PythonController,
+    PythonQuizController,
     HtmlController,
+    CplusplusQuizController,
+    HtmlQuizController,
     CplusplusController,
     NodeJsController,
+    NodeJsQuizController,
     AiController,
+    AiQuizController,
     GolangController,
+    GolangQuizController,
     RubyController,
+    RubyQuizController,
     UiUxController,
+    UiUxQuizController,
     ProfileController,
     ProfileMyCourseController,
     ProfileCertificationController
@@ -38,6 +50,7 @@ Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
 // Routes untuk kursus
 Route::get('/learn', [LearnController::class, 'index'])->name('learn');
 Route::get('/java', [JavaController::class, 'index'])->name('java');
+
 Route::get('/js', [JsController::class, 'index'])->name('js');
 Route::get('/csharp', [CsharpController::class, 'index'])->name('csharp');
 Route::get('/mysql', [MySqlController::class, 'index'])->name('mysql');
@@ -59,6 +72,21 @@ Route::get('/profile-mycourse', [ProfileMyCourseController::class, 'index'])->na
 
 
 Route::get('/profile/add-course/{course}', [ProfileMyCourseController::class, 'addCourseToProfile'])->name('profile.addCourse');
+
+
+
+Route::get('/java-quiz', [JavaQuizController::class, 'index']);
+Route::get('/js-quiz', [JsQuizController::class, 'index']);
+Route::get('/csharp-quiz', [CsharpQuizController::class, 'index']);
+Route::get('/mysql-quiz', [MySqlQuizController::class, 'index']);
+Route::get('/python-quiz', [PythonQuizController::class, 'index']);
+Route::get('/html-quiz', [HtmlQuizController::class, 'index']);
+Route::get('/cpp-quiz', [CplusplusQuizController::class, 'index']);
+Route::get('/nodejs-quiz', [NodeJsQuizController::class, 'index']);
+Route::get('/ai-quiz', [AiQuizController::class, 'index']);
+Route::get('/golang-quiz', [GolangQuizController::class, 'index']);
+Route::get('/ruby-quiz', [RubyQuizController::class, 'index']);
+Route::get('/uiux-quiz', [UiUxQuizController::class, 'index']);
 
 
 
